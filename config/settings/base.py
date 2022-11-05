@@ -81,6 +81,8 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "weesh.users",
     # Your stuff: custom apps go here
+    "weesh.organization.apps.OrganizationConfig",
+    "weesh.weesh_item.apps.WeeshItemConfig",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
